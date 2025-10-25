@@ -1,0 +1,44 @@
+/* front-end/src/index.css */
+
+/* Define as variáveis de cor para o tema escuro */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Paleta Escura */
+  --bg-dark-1: #1a1a1a;
+  --bg-dark-2: #242424;
+  --bg-dark-3: #2f2f2f;
+  --text-light-1: rgba(255, 255, 255, 0.87);
+  --text-light-2: rgba(255, 255, 255, 0.6);
+  --accent-color: #646cff;
+  --accent-color-hover: #535bf2;
+  --border-color: #444;
+  --success-color: #4caf50;
+  --error-color: #f44336;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  color-scheme: light dark;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--bg-dark-1);
+  color: var(--text-light-1);
+}
+
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 100%;
+}
